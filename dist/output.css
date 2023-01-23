@@ -591,6 +591,11 @@ video {
   z-index: -10;
 }
 
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
 .mx-8 {
   margin-left: 2rem;
   margin-right: 2rem;
@@ -604,15 +609,6 @@ video {
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
-}
-
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-
-.mr-3 {
-  margin-right: 0.75rem;
 }
 
 .mt-1 {
@@ -641,6 +637,10 @@ video {
 
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+
+.mr-3 {
+  margin-right: 0.75rem;
 }
 
 .mb-16 {
@@ -675,10 +675,6 @@ video {
   display: none;
 }
 
-.h-7 {
-  height: 1.75rem;
-}
-
 .h-9 {
   height: 2.25rem;
 }
@@ -691,12 +687,12 @@ video {
   width: 100%;
 }
 
-.w-7 {
-  width: 1.75rem;
-}
-
 .w-9 {
   width: 2.25rem;
+}
+
+.max-w-\[30px\] {
+  max-width: 30px;
 }
 
 .max-w-\[250px\] {
@@ -717,18 +713,6 @@ video {
 
 .max-w-\[120px\] {
   max-width: 120px;
-}
-
-.max-w-\[80px\] {
-  max-width: 80px;
-}
-
-.max-w-\[20px\] {
-  max-width: 20px;
-}
-
-.max-w-\[30px\] {
-  max-width: 30px;
 }
 
 .origin-top-left {
@@ -1141,10 +1125,6 @@ body {
 
 .hover\:opacity-80:hover {
   opacity: 0.8;
-}
-
-.hover\:opacity-60:hover {
-  opacity: 0.6;
 }
 
 .hover\:shadow-lg:hover {
